@@ -1,0 +1,6 @@
+make O=out $arch_opts $make_opts $host_make_opts "$defconfig"
+
+make O=out $arch_opts $make_opts $host_make_opts -j"$(nproc --all)" prepare
+
+make O=out $arch_opts $make_opts $host_make_opts -j"$(nproc --all)"
+

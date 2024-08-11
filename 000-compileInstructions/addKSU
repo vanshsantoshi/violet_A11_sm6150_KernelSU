@@ -1,0 +1,5 @@
+cd violet_R_kernel_sm6150_KernelSU/
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
+cd KernelSU/
+git revert 898e9d4f8ca9b2f46b0c6b36b80a872b5b88d899
+cd ..
